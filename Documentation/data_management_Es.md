@@ -6,8 +6,8 @@ Con el fin de asegurar la integridad y calidad de los datos obtenidos y manipula
 - **Datos Primarios**: Corresponderán a las secuencias genéticas de obtenidas bases de datos públicas.
 - **Datos Secundarios**: Corresponderán a los resultados de análisis y procesamiento de las secuencias obtenidas utilizando herramientas del EBI (European Bioinformatics Institute).
 - **Metadatos**: Cada dato (primario o secundario) debe contener información contextual sobre las secuencias descargadas.
- - **Primarios:** fuente, fecha de descarga, parámetros de búsqueda, filtros empleados
- - **datos de análisis (Secundarios):** herramientas y versiones utilizadas, parámetros de análisis.
+    - **Primarios:** fuente, fecha de descarga, parámetros de búsqueda, filtros empleados
+    - **datos de análisis (Secundarios):** herramientas y versiones utilizadas, parámetros de análisis.
 - **Documentación:** Esta corresponde a una carpeta especifica en la que se describe el proyecto, incluyendo el protocolo de gestión de datos, el archivo README, y otros documentos relevantes
 
 ## Almacenamiento:
