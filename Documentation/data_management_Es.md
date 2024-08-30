@@ -14,12 +14,12 @@ Con el fin de asegurar la integridad y calidad de los datos obtenidos y manipula
 Los datos manejados en entre proyecto se estarán almacenando y compartiendo en el repositorio de GitHub: [link repositorio](https://github.com/YAMontenegroBacca/EBI_Huntington-s_disease.git)
 A continuación, se presenta un ejemplo de la organización del repositorio según las carpetas y archivos ya creados:
 -	Documentation 
- - README.md
- - Data_management_Es.md
- - Data_management_En.md
+    - README.md
+    - Data_management_Es.md
+    - Data_management_En.md
 -	Primary_Data
- -	Programmatic_acces
-  -	first_search.py
+    -	Programmatic_acces
+        - first_search.py
 -	Secondary_Data
 
 
