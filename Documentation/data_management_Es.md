@@ -3,24 +3,27 @@
 Con el fin de asegurar la integridad y calidad de los datos obtenidos y manipulados, así como la transparencia y reproducibilidad de los análisis realizados, se ha desarrollado el siguiente protocolo para el manejo de los datos:
 
 ## Tipos de Datos a manejar:
-•	Datos Primarios: Corresponderán a las secuencias genéticas de obtenidas bases de datos públicas.
-•	Datos Secundarios: Corresponderán a los resultados de análisis y procesamiento de las secuencias obtenidas utilizando herramientas del EBI (European Bioinformatics Institute).
-•	Metadatos: Cada dato (primario o secundario) debe contener información contextual sobre las secuencias descargadas.
-o	Primarios: fuente, fecha de descarga, parámetros de búsqueda, filtros empleados; datos de análisis (Secundarios): herramientas y versiones utilizadas, parámetros de análisis.
-•	Documentación: Esta corresponde a una carpeta especifica en la que se describe el proyecto, incluyendo el protocolo de gestión de datos, el archivo README, y otros documentos relevantes
+- **Datos Primarios**: Corresponderán a las secuencias genéticas de obtenidas bases de datos públicas.
+- **Datos Secundarios**: Corresponderán a los resultados de análisis y procesamiento de las secuencias obtenidas utilizando herramientas del EBI (European Bioinformatics Institute).
+- **Metadatos**: Cada dato (primario o secundario) debe contener información contextual sobre las secuencias descargadas.
+ - **Primarios:** fuente, fecha de descarga, parámetros de búsqueda, filtros empleados
+ - **datos de análisis (Secundarios):** herramientas y versiones utilizadas, parámetros de análisis.
+- **Documentación:** Esta corresponde a una carpeta especifica en la que se describe el proyecto, incluyendo el protocolo de gestión de datos, el archivo README, y otros documentos relevantes
 
 ## Almacenamiento:
 Los datos manejados en entre proyecto se estarán almacenando y compartiendo en el repositorio de GitHub: [link repositorio](https://github.com/YAMontenegroBacca/EBI_Huntington-s_disease.git)
 A continuación, se presenta un ejemplo de la organización del repositorio según las carpetas y archivos ya creados:
 -	Documentation 
-o	README.md
-o	Data_management_Es.md
+ - README.md
+ - Data_management_Es.md
+ - Data_management_En.md
 -	Primary_Data
-o	Programmatic_acces
-	first_search.py
+ -	Programmatic_acces
+  -	first_search.py
 -	Secondary_Data
 
-Nota: En cada carpeta se irán almacenando la información correspondiente según las herramientas empleadas. Cada dato generado contiene su respectivo archivo con los metadatos correspondientes. 
+
+**Nota:** En cada carpeta se irán almacenando la información correspondiente según las herramientas empleadas. Cada dato generado contiene su respectivo archivo con los metadatos correspondientes. 
 
 ## Procesamiento y Análisis de Datos
 Para este proyecto, se emplearán las herramientas proporcionadas por el European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI). Dentro de estas herramientas se encuentran
